@@ -1,0 +1,31 @@
+.card {
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid rgb(20, 20, 20);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card_img {
+    width: 290px;
+    height: 290px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    background-image: url('../img/house.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card_title {
+    color: darkslategrey;
+    font-weight: 800;
+}
+
+.card_price {
+    color: darkslategrey;
+    font-weight: 800;
+}
